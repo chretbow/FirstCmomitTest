@@ -17,6 +17,7 @@ namespace MVC_Product.Controllers
         // GET: Guestbooks
         public ActionResult Index()
         {
+            String HI = "HEELO WORLD!!!";
             return View(db.Guestbooks.ToList());
         }
 
